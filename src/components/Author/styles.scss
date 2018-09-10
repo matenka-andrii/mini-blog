@@ -1,0 +1,14 @@
+.author {
+  line-height: 18px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: var(--paletteBlack);
+  p {
+    margin: 0!important;
+    font-size: 13px!important;;
+    span {
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+}

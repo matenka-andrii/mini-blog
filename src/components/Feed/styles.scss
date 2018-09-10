@@ -1,0 +1,23 @@
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.search {
+  width: calc(100% - 30px);
+  height: 50px;
+  padding: 0 20px;
+  margin: 0 15px 30px;
+  border: 0;
+  background-color: var(--paletteWhite);
+  color: var(--paletteBlack);
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  &:focus {
+    outline: 0;
+  }
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
